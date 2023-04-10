@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .countdown {
+        @apply p-8 text-5xl lg:min-w-[150px] text-center bg-[#434545] rounded-lg text-white
+    }
+
+    .countdown-label {
+        @apply text-center text-white uppercase text-sm pt-4
+    }
+
+    .stats {
+        @apply bg-[#080808] text-white p-4 flex-1 rounded-md border-[#434545] border-2
+    }
+
+    .stats-container {
+        @apply bg-[#080808] p-5 rounded-lg border-[#434545] border
+    }
+
+    .admin-button {
+        @apply bg-[#080808] text-white p-2 flex-1 rounded-md border-[#434545] border-2 hover:border-gray-300/20
+    }
+}
